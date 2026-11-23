@@ -1,0 +1,35 @@
+# Built binaries and downloaded media
+/bin/
+/ytgo
+/ytgo.exe
+/downloads/
+
+# Download archives and partial files, including custom output locations
+.ytgo-archive.txt
+*.part
+*.part-Frag*
+*.ytdl
+
+# Local caches and update temporary files
+/.cache/
+/.gocache/
+.updates-*
+
+# Go test binaries, coverage, and profiles
+*.test
+/coverage.out
+/coverage.html
+*.prof
+
+# Local credentials (keep example configuration available to commit)
+.env
+.env.*
+!.env.example
+/.aws/
+
+# Editor backups and OS metadata
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
