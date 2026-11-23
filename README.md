@@ -1,4 +1,4 @@
-# ytgo
+# ytgo — YouTube Video & Playlist Downloader
 
 ytgo is a Go wrapper around yt-dlp for downloading YouTube videos and playlists as MP4 video or MP3 audio. Its main benefits are a simpler command interface and concurrent playlist downloads: one command selects the format and quality, while a worker pool downloads several videos at once.
 
